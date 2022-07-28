@@ -1,4 +1,16 @@
-# AngularStudy
+# Angular 공부
+
+## 설치
+
+```bash
+$ npm install -g @angular/cli
+```
+
+## 프로젝트 생성
+
+```bash
+$ ng new angular-study
+```
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 

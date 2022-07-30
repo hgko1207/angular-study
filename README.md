@@ -22,15 +22,13 @@ $ ng serve
 
 ## Build
 
-빌드 아티팩트는 `dist/` 폴더에 저장됩니다.
+빌드 결과는 `dist/` 폴더에 저장됩니다.
 
 ```bash
 $ ng build
 ```
 
 ## component 생성
-
-`ng generate directive|pipe|service|class|guard|interface|enum|module` 명령어를 통해 component 외에 다른 파일들을 생성할 수 있습니다.
 
 ```bash
 $ ng generate component component-name
@@ -45,21 +43,27 @@ $ ng g c section
 $ ng g c section/card
 ```
 
+`ng generate directive|pipe|service|class|guard|interface|enum|module` 명령어를 통해 component 외에 다른 파일들을 생성할 수 있습니다.
+
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+[Karma](https://karma-runner.github.io)를 통해 단위 테스트를 할 수 있습니다.
+
+```bash
+$ ng test
+```
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+선택한 플랫폼을 통해 end-to-end 테스트를 실행합니다. 이 명령을 사용하려면 먼저 end-to-end 테스트 기능을 구현하는 패키지를 추가해야 합니다.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+$ ng e2e
+```
 
 ## 참고
 
-- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+- [Angular CLI](https://github.com/angular/angular-cli)
 - https://angular.io/cli
 - https://angular.io/tutorial
 - https://material.angular.io/

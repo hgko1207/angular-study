@@ -22,7 +22,7 @@ $ ng serve
 
 ## Build
 
-빌드 결과는 `dist/` 폴더에 저장됩니다.
+빌드 결과는 기본적으로 `dist/` 폴더에 저장됩니다.
 
 ```bash
 $ ng build

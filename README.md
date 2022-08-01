@@ -61,6 +61,14 @@ $ ng test
 $ ng e2e
 ```
 
+## RxJS
+
+- https://rxjs.dev/
+
+RxJS는 Reactive Extensions For JavaScript 라이브러리이다.
+
+## Service
+
 ## 참고
 
 - [Angular CLI](https://github.com/angular/angular-cli)
@@ -75,3 +83,9 @@ $ ng e2e
 - Angular Files
 - Angular Language Service
 - TypeScript Hero: 소스 코드 관리에 필요한 TypeScript 코드 정렬을 도와주는 Plugin
+
+## 기타 설치
+
+```bash
+$ npm i moment --save
+```

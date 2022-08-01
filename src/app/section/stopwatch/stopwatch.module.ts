@@ -4,10 +4,12 @@ import { TimeDisplayComponent } from '../stopwatch/time-display/time-display.com
 import { ButtonsComponent } from '../stopwatch/buttons/buttons.component';
 import { StopwatchComponent } from './stopwatch.component';
 import { RouterModule } from '@angular/router';
+import { PageToggleService } from 'src/app/share/page-toggle.service';
 
 @NgModule({
   declarations: [TimeDisplayComponent, ButtonsComponent, StopwatchComponent],
   exports: [StopwatchComponent],
   imports: [CommonModule, RouterModule],
+  //providers: [PageToggleService],
 })
 export class StopwatchModule {}

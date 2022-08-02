@@ -69,6 +69,16 @@ RxJS는 Reactive Extensions For JavaScript 라이브러리이다.
 
 ## Service
 
+Injector 검색 순서
+
+자신의 컴포넌트
+-> 부모 컴포넌트
+-> 루트 컴포넌트까지 계속 부모-자식 관계를 타고 올라감
+-> 루트 모듈
+-> 하위 모듈
+-> 자신이 속한 모듈까지 계속 내려옴
+-> 도중에 해당 서비스에 대한 Providers 값이 있다면 검색 종료
+
 ## 참고
 
 - [Angular CLI](https://github.com/angular/angular-cli)
